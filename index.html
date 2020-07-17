@@ -1,63 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
-    rel="stylesheet"> 
-    <title>Kiddies eMonitor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <title>Kiddies eMonitor</title>
 </head>
+
 <body>
-    <header>
-        <!-- navigation bar  -->
-     <section class="header-sec">
-        <nav>
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-12 text-center">
-              <p class="navig py-2">Coming Soon!</p>
-            </div>
-          </div>
-        </nav>
-     <!-- banner -->
-     <div class="sec-bg  py-4">
-       <div class="container">
+  <header>
+
+    <!-- navigation bar  -->
+    <section class="header-sec">
+      <nav>
         <div class="row">
-          <div class="col-lg-7 col-md-7 col-7 text-center">
-            <div class="banner-body ">
-                <div class="header-box">
-                  <p class="logo">kiddies eMonitor</p>
-                </div>
-                <h1 class="banner-text text-white" >Designed to control, manage and protect your child's Internet activities on the go!</h1>
-                <p class="banner-text1 text-white">The best mobile app for parental control. We made an exciting idea to put you out of that tight corner by bringing you a world safe for your child</p>
-                
-                <div class="email">
-                    <p class="email-desc text-white">Be the first to know when Kiddies eMonitor launches </p>
-                    <form>
-                        <label for="email"></label><br>
-                        <input id="email" name="email" type="email" placeholder="Enter Email Address">
-                       </form>
-                    <a href="#" class="link p-3 px-4 bg-w">Sign Up</a>
-                </div>
-            </div>
-        
+          <div class="col-lg-12 col-md-12 col-12 text-center">
+            <p class="navig py-2">Coming Soon!</p>
           </div>
         </div>
-     </div>
-     </div>
-     
+      </nav>
+      <!-- banner -->
+      <div class="sec-bg  py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-7 ">
+              <div class="banner-body ">
+                <div class="header-box d-flex">
+                  <img src="./image/Group 3.png" class="mr-2">
+                  <p class="logo">kiddies eMonitor</p>
+                </div>
+              </div>
+              <div class="ban-head">
+              <h1 class="banner-text">Designed to control, manage and protect your child's Internet
+                activities on the go!</h1>
+              </div>
+              <p class="banner-text1">The best mobile app for parental control. We made an exciting idea to
+                put you out of that tight corner by bringing you a world safe for your child</p>
+
+               <div class="mail-text">
+                <p class="email-desc">Be the first to know when Kiddies eMonitor launches </p>
+              </div>
+                <div class="form" >
+                <form method="POST" action="./PHP/server.php" class="subscrb d-flex">
+                  <div class="form-group">
+                    <label class="ea-only"   for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <button type="submit" class="btn btn-default">Sign Up</button>
+                  <!-- <a href="#" class="link">Sign Up</a> -->
+                </form>
+               <form>
+              
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-5 ">
+              <div class="img-mobi d-flex fluid">
+                <img src="./image/mobile.png">
+                <img src="./image/mobile.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </header>
+  <main>
+    <section>
+      <h2 class="sec2-head text-center py-5">Features: easiest way to Monitor Your Kids Online</h2>
+      <p class="sec2-para text-center m ">Being a digital parent is achievable not just an imagination</p>
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-3"><img class="icons text-center mb-3" src="./image/icon containter.png">
+          <p class="sec2-par mb-3">Track</p>
+          <p>Keep track of who your kids engages on their timeline or private message</p>
+          </div>
+          <div class="col-lg-3"><img class="icons text-center" src="./image/icon containter (3).png">
+            <p class="sec2-par text-center">Notifications</p>
+            <p>Get notified when your kids gets a new follower, follows a user or when abusive words are used on them </p>
+          </div>
+          <div class="col-lg-3"><img class="icons text-center" src="./image/icon containter (2).png">
+            <p class="sec2-par ">Records</p>
+            <p>See and keep records of individuals with suspicious predatory remarks as reported by other users</p>
+          </div>
+          <div class="col-lg-3"><img class="icons text-center" src="./image/icon containter (1).png">
+            <p class="sec2-par ">Manage</p>
+            <p>manage what your child sees on their timeline, mute words or block individuals on their behalf</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
     
-     </section>
-    </header>
-    <main>
+    <div class="sec3-bg">
+    <div class="container">
+    <h2 class="sec3-head text-center py-5">Checkout Some of the Features in Preview</h2>
+    <div class="row">
+    <div class="col-lg-4"><img src="./image/mockup.png"></div>
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4"></div>
+      </div>
+  </div>
+  </div>
+  </section>
+  <section>
+    <h2 class="sec3-head text-center py-5">Easy Steps: It Takes Less Minutes Than you Think to get you Started </h2>
+    <p class="sec2-para text-center">Kiddies eMonitor is quickly installed on your smartphone and your child's device.
+    </p>
+    <div>
+       <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        </div>
 
+    </div>
 
-    </main>
- 
-   <footer></footer>
+  </section>
+  </main>
 
+  <footer>
+    
+    <div class="updt">
+     <h1>Become one of the very first users to get  a personalized services</h1>
+    </div>
+    
+    <p>Kiddies eMonitor is coming ,Watch this space </p></footer>
 
 
 
@@ -223,10 +302,12 @@
 
 
 
- <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
- </script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
- 
+
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
