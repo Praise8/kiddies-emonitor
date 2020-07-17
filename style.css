@@ -5,40 +5,44 @@
   padding: 0;
   margin: 0;
 }
-html 
-{
+
+html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
 body {
-    font-family: 'Muli', sans-serif !important;
-    box-sizing: inherit;
-  
+  font-family: 'Muli', sans-serif !important;
+  box-sizing: inherit;
+  overflow-x: hidden;
 }
+
 header {
   background-image: url('./image/Banner.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60rem;
+  height: 70rem;
 }
 
-.banner{
+.banner {
   position: absolute;
   width: 100% !important;
   height: 65rem;
 }
+
 /* .header-sec{
 border-bottom-left-radius:50%;
 border-bottom-right-radius:50%;
 } */
-.navig{
-background-color: #EFE62E;
-color: #ffffff;
-font-weight: bolder;
-font-size: 1.5rem;
-margin: 0rem;
+.navig {
+  background-color: #EFE62E;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 0rem;
 }
+
 /* .sec-bg{ */
 /* background-color: #7AD6E6; */
 /* margin-top: 0rem; */
@@ -47,35 +51,38 @@ margin: 0rem;
 border-bottom-right-radius:40%; */
 /* } */
 
-.logo{
-font-family: Racing Sans One;
-font-style:italic;
-font-weight: bold;
-font-size: 2rem;
-align-items: left;
-color:#F5A3C0;
+.logo {
+  font-family: Racing Sans One;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.2rem;
+  align-items: left;
+  color: #F5A3C0;
 }
-.banner-text{
-  font-family: Merriweather;
+
+.banner-text {
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: lighter;
-  line-height: 5rem;
+  line-height: 1.2;
   color: rgba(237, 235, 255, 0.8);
   font-size: 4rem;
   margin-top: 2rem;
-  
+  line-height: 1.2;
+
 }
-.banner-text1{
-  font-family: Helvetica;
+
+.banner-text1 {
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   line-height: 2rem;
   color: rgba(237, 235, 255, 0.8);
   margin-top: 1rem;
 }
 
-.email-desc{
+.email-desc {
   color: rgba(237, 235, 255, 0.8);
   font-family: Helvetica;
   font-style: normal;
@@ -83,7 +90,8 @@ color:#F5A3C0;
   line-height: 1.2rem;
   margin-top: 4rem;
 }
- /* a, a:visited, a:focus, a:active {
+
+/* a, a:visited, a:focus, a:active {
   text-decoration: none !important;
 } 
 .link{
@@ -103,25 +111,84 @@ color:#F5A3C0;
   border-radius: 0px 4px 4px 0px;
   padding-right: 12rem;
 } */
-.sec2-head{
-font-family: Merriweather;
-font-style: normal;
-font-weight: bold;
-font-size: 3rem;
-line-height: 1.6rem;
-color: #F5A3C0;
+.sec2-head {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.6rem;
+  color: #F5A3C0;
 }
-.sec2-para{
-font-family: Helvetica;
-font-style: normal;
-font-weight: bolder;
-font-size: 1.3rem;
-line-height: 1.5rem;
-color: #000000;
+
+.sec3-bg {
+  background-color: #EFE62E;
+  padding: 5rem 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.sec3-head {
+  line-height: 1.4;
+  font-size: 2.8rem;
+  font-family: 'Merriweather';
+}
+
+.sec3-bg1::before {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  content: '';
+  transform: scale(1.7);
+  background: rgba(242, 242, 242, 0.25);
+  float: right;
+  right: -25rem;
+  border-radius: 50%;
+}
+
+.sec3-bg .img-box {
+  background-color: #fff;
+  height: 25rem;
+}
+
+.sec2-para {
+  font-family: Arial, 'Helvetica', sans-serif !important;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #000000;
 }
 
 .col-lg-3:not(:last-child) {
   border-right: 1px solid #EDEBFF;
+}
+
+.form-input {
+  padding: 2rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+
+.sub-btn {
+  background-color: #F5A3C0;
+  padding: 1.1rem 3rem;
+  font-size: 1.3rem;
+}
+
+.sec-padding {
+  padding: 5rem 0;
+}
+
+
+.sec2-par {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.fea-text {
+  margin-top: 2rem;
+  color: #000;
+  font-size: 1.4rem;
 }
 
 
